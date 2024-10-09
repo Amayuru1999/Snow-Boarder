@@ -14,6 +14,9 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        
+        if (Input.GetKey(KeyCode.LeftArrow))
+        {
+            rb2d.AddTorque(1);
+        }
     }
 }
