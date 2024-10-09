@@ -479,7 +479,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0cb141d62cd2be4ab3fa9314028c4e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  torqueAmount: 1
+  torqueAmount: 10
 --- !u!1 &1246644550
 GameObject:
   m_ObjectHideFlags: 3
