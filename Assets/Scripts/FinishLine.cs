@@ -10,7 +10,12 @@ public class FinishLine : MonoBehaviour
     {
         if (other.tag == "Player")
         {
-            SceneManager.LoadScene(0);
+            Invoke("RelodScene",2f);
         }
+    }
+    
+    void RelodScene()
+    {
+        SceneManager.LoadScene(0);
     }
 }
