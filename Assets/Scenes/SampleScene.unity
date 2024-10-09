@@ -293,7 +293,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.53074, y: 1.4, z: -10}
+  m_LocalPosition: {x: -4.531457, y: 1.4, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -345,6 +345,7 @@ GameObject:
   - component: {fileID: 873725896}
   - component: {fileID: 873725900}
   - component: {fileID: 873725901}
+  - component: {fileID: 873725902}
   m_Layer: 0
   m_Name: Amayuru
   m_TagString: Untagged
@@ -466,6 +467,19 @@ CircleCollider2D:
   m_Offset: {x: 0.33, y: 1.15}
   serializedVersion: 2
   m_Radius: 0.29
+--- !u!114 &873725902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 873725895}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0cb141d62cd2be4ab3fa9314028c4e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  torqueAmount: 1
 --- !u!1 &1246644550
 GameObject:
   m_ObjectHideFlags: 3
@@ -731,7 +745,7 @@ Transform:
   m_GameObject: {fileID: 2009222022}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.53074, y: 1.4, z: -10}
+  m_LocalPosition: {x: -4.531457, y: 1.4, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
