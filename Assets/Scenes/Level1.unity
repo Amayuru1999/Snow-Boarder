@@ -300,6 +300,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   loadDelay: 1
+  finishEffect: {fileID: 944740382}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
